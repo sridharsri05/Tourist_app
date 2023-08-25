@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
-import { HashLink as Link } from 'react-router-hash-link'
+
 
 
 const NavBar = () => {
@@ -29,12 +30,12 @@ const NavBar = () => {
                     <div className={`collapse navbar-collapse ${nav ? "show" : ""}`}>
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <Link className="nav-link text-light">
+                                <Link to={"/"} className="nav-link text-light">
                                     Home
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-light">
+                                <Link to={'/Places'} className="nav-link text-light">
                                     Places to Visit
                                 </Link>
                             </li>

@@ -1,19 +1,10 @@
 
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CarouselComponent from './components/CarouselComponent';
-import Chennai from './components/pages/Chennai';
-import { Rameshwaram } from './components/pages/Rameshwaram';
-import Kodaikanal from './components/pages/Kodaikanal';
-import Ooty from './components/pages/Ooty';
-import Kanyakumari from './components/pages/Kanyakumari';
-import Kumbakonam from './components/pages/Kumbakonam';
-import Madurai from './components/pages/Madurai';
-import Theni from './components/pages/Theni';
-import Yercaud from './components/pages/Yercaud';
-import Hogenakkal from './components/pages/Hogenakkal';
+import Places from './components/PlacesToVisit/Places';
+import Home from './components/Home';
 
 function App() {
 
@@ -22,17 +13,10 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <CarouselComponent />
-        <Chennai />
-        <Rameshwaram />
-        <Kodaikanal />
-        <Ooty />
-        <Kanyakumari />
-        <Kumbakonam />
-        <Madurai />
-        <Yercaud />
-        <Theni />
-        <Hogenakkal />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Places' element={<Places />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
