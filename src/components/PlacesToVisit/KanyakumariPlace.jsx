@@ -1,7 +1,7 @@
-import ch1 from '../../../public/images/pages/kanyakumari1.jpeg'
-import ch2 from '../../../public/images/pages/kanyakumari2.jpeg'
-import ch3 from '../../../public/images/pages/kanyakumari3.jpeg'
-import ch4 from '../../../public/images/pages/kanyakumari4.jpeg'
+import ch1 from '/images/pages/kanyakumari1.jpeg'
+import ch2 from '/images/pages/kanyakumari2.jpeg'
+import ch3 from '/images/pages/kanyakumari3.jpeg'
+import ch4 from '/images/pages/kanyakumari4.jpeg'
 
 const KanyakumariPlace = () => {
     return (

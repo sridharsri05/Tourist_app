@@ -1,7 +1,7 @@
-import ch1 from '../../../public/images/pages/hogenakkal1.jpeg'
-import ch2 from '../../../public/images/pages/hogenakkal2..jpeg'
-import ch3 from '../../../public/images/pages/hogenakkal3.jpeg'
-import ch4 from '../../../public/images/pages/hokenakkal4..jpeg'
+import ch1 from '/images/pages/hogenakkal1.jpeg'
+import ch2 from '/images/pages/hogenakkal2..jpeg'
+import ch3 from '/images/pages/hogenakkal3.jpeg'
+import ch4 from '/images/pages/hokenakkal4..jpeg'
 
 const HogenakkalPlace = () => {
     return (

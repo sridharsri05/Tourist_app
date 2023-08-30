@@ -1,7 +1,7 @@
-import ch1 from '../../../public/images/pages/kodaikanal1....jpeg'
-import ch2 from '../../../public/images/pages/kodaikanal2.jpeg'
-import ch3 from '../../../public/images/pages/kodaikanal3..jpeg'
-import ch4 from '../../../public/images/pages/kodaikanal4.jpeg'
+import ch1 from '/images/pages/kodaikanal1....jpeg'
+import ch2 from '/images/pages/kodaikanal2.jpeg'
+import ch3 from '/images/pages/kodaikanal3..jpeg'
+import ch4 from '/images/pages/kodaikanal4.jpeg'
 
 const KodaikanalPlace = () => {
     return (

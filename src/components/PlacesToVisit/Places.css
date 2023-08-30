@@ -6,6 +6,18 @@
     margin: 3rem 7.5rem !important;
 }
 
+.mg-5-1 {
+    margin-top: 8rem !important;
+}
+
+.mg-sm-5 {
+    margin-top: 4.5rem !important;
+}
+
+.mg-md-5 {
+    margin-top: 6rem !important;
+}
+
 .m-5 p,
 .parag p {
     text-indent: 4em;
@@ -27,3 +39,25 @@
 
     font-weight: 400;
 }
+
+.para-1 p {
+    text-indent: 4em;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 180%;
+}
+
+
+.row .text-center h6 {
+    font-weight: 400 !important;
+}
+
+.modal-body {
+    margin: 0px 3.5rem !important;
+}
+
+
+
+/* .offcanvas-backdrop.show:nth-child(odd) {
+    z-index: -1;
+} */
