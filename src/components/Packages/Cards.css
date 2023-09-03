@@ -1,0 +1,125 @@
+.card-img-overlay>.card-header>h6>a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+
+
+.card-img-overlay>.card-footer>h6>a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+.card-img-overlay>.card-header {
+    padding: 0px;
+    border-bottom: none;
+}
+
+.card-img-overlay>.card-header>h6>a:hover {
+    color: #fff !important;
+    font-weight: 900;
+}
+
+.card-img-overlay>.card-footer>h6>a:hover {
+    color: #fff !important;
+    font-weight: 900;
+}
+
+.card-img-overlay {
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    padding-top: 3px;
+    height: 50px;
+
+}
+
+.card-img-overlay .card-footer {
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: relative;
+    background: rgba(0, 0, 0, .2);
+    top: 9rem;
+    height: 1.3rem;
+
+
+}
+
+
+
+
+.card-1>.card>.card-body {
+    padding: 3px 0 10px !important;
+    margin: 0 0 10px !important;
+    background: #fff;
+
+}
+
+.float-start {
+    padding: 3px;
+    font-weight: 700;
+    font-family: josefin sans, sans-serif !important;
+    font-size: 13px;
+}
+
+.float-start>img {
+    padding: 3px;
+}
+
+.float-end span {
+    padding: 3px;
+    font-weight: 700;
+    font-family: josefin sans, sans-serif !important;
+    font-size: 13px;
+}
+
+.card-footer {
+    color: #0a7285;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+    font-family: josefin sans, sans-serif !important;
+    border: none;
+
+}
+
+.card-footer p>.span-foot {
+    font-family: josefin sans, sans-serif !important;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.btn-sm {
+
+    margin-right: 2px !important;
+    color: #fff;
+    font-weight: 600;
+
+    font-family: josefin sans, sans-serif !important;
+    background-image: linear-gradient(to right, #A72F2F 10%, #43264e 75%);
+    border: 0 !important;
+    float: right;
+    width: auto;
+
+
+}
+
+.btn-sm:hover {
+    color: rgb(228, 126, 32);
+}
+
+.tour-plan {
+    position: relative;
+    right: -6rem;
+    background: #fff;
+}

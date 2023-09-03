@@ -46,13 +46,8 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-light">
+                                <Link to={"/Package"} className="nav-link text-light">
                                     Packages
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link text-light">
-                                    Destination
                                 </Link>
                             </li>
                             <li className="nav-item">

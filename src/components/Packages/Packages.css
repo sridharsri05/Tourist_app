@@ -1,0 +1,19 @@
+#moreLinkProgressive {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 50%, #fff 100%);
+    font-family: manrope bold, sans-serif;
+    color: #3d81bb;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+
+
+.readMoreText {
+
+    line-height: 180%;
+}
